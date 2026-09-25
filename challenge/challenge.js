@@ -16,7 +16,7 @@
     document.getElementById('device-note').textContent='Android is also in private testing. Contact support for access.';
   } else if(config.appStoreReleased || /^https:\/\/testflight\.apple\.com\/join\/[A-Za-z0-9]+$/.test(config.testFlightUrl || '')) {
     install.href=config.appStoreReleased ? config.appStoreUrl : config.testFlightUrl;
-    install.textContent=config.appStoreReleased ? 'Get BrainDrop on the App Store' : 'Get BrainDrop through TestFlight';
+    install.textContent=config.appStoreReleased ? 'Get BrainWod on the App Store' : 'Get BrainWod through TestFlight';
     install.hidden=false;
     document.getElementById('availability').hidden=true;
   }
